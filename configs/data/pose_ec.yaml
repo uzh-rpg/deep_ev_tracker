@@ -1,0 +1,13 @@
+name: pose
+
+_target_: utils.dataset.PoseDataModule
+
+root_dir: <path>
+dataset_type: EC
+n_frames_skip: 3
+n_event_representations_per_frame: 5
+
+num_workers: 0
+batch_size: 16
+n_train: 2500
+n_val: 200
