@@ -43,7 +43,7 @@ This performance gap is further increased to 130% by adapting our tracker to rea
 This document describes the usage and installation for this repository.<br>
 
 1. [Installation](#Installation)<br>
-2. [Test Sequences and Pretrained Weights](#Test Sequences and Pretrained Weights)<br>
+2. [Test Sequences and Pretrained Weights](#Test-Sequences-and-Pretrained-Weights)<br>
 3. [Preparing Synthetic Data](#Preparing-Synthetic-Data)<br>
 4. [Training on Synthetic Data](#Training-on-Synthetic-Data)<br>
 5. [Preparing Pose Data](#Preparing-Pose-Data)<br>
