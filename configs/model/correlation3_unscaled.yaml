@@ -1,0 +1,7 @@
+name: correlation3_unscaled
+
+_target_: models.correlation3_unscaled.TrackerNetC
+patch_size: 31
+feature_dim: 384
+defaults:
+  - /optim/adam.yaml@optimizer

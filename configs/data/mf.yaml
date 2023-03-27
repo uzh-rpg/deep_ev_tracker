@@ -1,0 +1,16 @@
+name: mf
+
+_target_: utils.dataset.MFDataModule
+data_dir: <path>
+extra_dir: <path>
+dt: 0.0200
+num_workers: 4
+
+# For tracks
+batch_size: 32
+n_train: 30000
+n_val: 1000
+
+augment: True
+global_mode: False
+mixed_dt: True

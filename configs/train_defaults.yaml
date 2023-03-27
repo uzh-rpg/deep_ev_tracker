@@ -1,0 +1,28 @@
+hydra:
+  run:
+    dir:<path>/${data.name}/${model.name}/${experiment}/${now:%Y-%m-%d_%H%M%S}
+
+# Composing nested config with default
+experiment: open_source
+track_name: shitomasi_custom
+
+representation: time_surfaces_v2_5
+patch_size: 31
+
+debug: False
+n_vis: 2
+logging: True
+
+# Do not forget to set the learning rate for supervised or for pose finetuning in configs/optim/adam.yaml
+defaults:
+  - data: mf # [mf, pose_eds, pose_ec]
+  - model: correlation3_unscaled
+  - training: supervised_train # [supervised_train, pose_finetuning_train_ec, pose_finetuning_train_eds]
+
+# Pytorch lightning trainer's argument
+trainer:
+  benchmark: True
+  log_every_n_steps: 10
+  max_epochs: 40000
+  num_processes: 1
+  num_sanity_val_steps: 1

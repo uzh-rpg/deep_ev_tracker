@@ -1,0 +1,7 @@
+# @package _global_
+
+checkpoint_path: <path>
+init_unrolls: 8
+max_unrolls: 8
+unroll_factor: 8
+unroll_schedule: [100]
