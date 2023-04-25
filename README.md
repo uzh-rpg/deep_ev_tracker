@@ -6,7 +6,7 @@
  </a>
 </p>
 
-This is the code for the paper **Data-driven Feature Tracking for Event Cameras**
+This is the code for the CVPR23 paper **Data-driven Feature Tracking for Event Cameras**
 ([PDF](https://rpg.ifi.uzh.ch/docs/Arxiv22_Messikommer.pdf)) by [Nico Messikommer\*](https://messikommernico.github.io/), [Carter Fang\*](https://ctyfang.github.io/), [Mathis Gehrig](https://magehrig.github.io/), and [Davide Scaramuzza](http://rpg.ifi.uzh.ch/people_scaramuzza.html).
 For an overview of our method, check out our [video](https://youtu.be/dtkXvNXcWRY).
 
