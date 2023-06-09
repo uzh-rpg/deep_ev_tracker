@@ -105,6 +105,30 @@ and fine-tuned on the EDS dataset using our proposed pose supervision strategy.
 
 ## Preparing Synthetic Data
 
+### Download MultiFlow Dataset
+
+Download links:
+
+- [train (1.3 TB)](https://download.ifi.uzh.ch/rpg/multiflow/train.tar)
+- [test (258 GB)](https://download.ifi.uzh.ch/rpg/multiflow/test.tar)
+
+If you use this dataset in an academic context, please cite:
+
+```bibtex
+@misc{Gehrig2022arxiv,
+ author = {Gehrig, Mathias and Muglikar, Manasi and Scaramuzza, Davide},
+ title = {Dense Continuous-Time Optical Flow from Events and Frames},
+ url = {https://arxiv.org/abs/2203.13674},
+ publisher = {arXiv},
+ year = {2022}
+}
+```
+
+The models were pre-trained using an older version of this dataset, available at the time of the submission.
+The download links above link to the up-to-date version of the dataset.
+
+### Pre-Processing Instructions
+
 Preparation of the synthetic data involves generating input representations for the
 Multiflow sequences and extracting the ground-truth tracks.<br>
 
