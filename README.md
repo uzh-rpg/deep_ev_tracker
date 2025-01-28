@@ -1,4 +1,4 @@
-# Data-driven Feature Tracking for Event Cameras
+# Data-driven Feature Tracking for Event Cameras with and without Frames CVPR23/T-PAMI25
 
 <p align="center">
  <a href="https://youtu.be/dtkXvNXcWRY">
@@ -10,7 +10,12 @@ This is the code for the CVPR23 paper **Data-driven Feature Tracking for Event C
 ([PDF](https://rpg.ifi.uzh.ch/docs/Arxiv22_Messikommer.pdf)) by [Nico Messikommer\*](https://messikommernico.github.io/), [Carter Fang\*](https://ctyfang.github.io/), [Mathis Gehrig](https://magehrig.github.io/), and [Davide Scaramuzza](http://rpg.ifi.uzh.ch/people_scaramuzza.html).
 For an overview of our method, check out our [video](https://youtu.be/dtkXvNXcWRY).
 
-If you use any of this code, please cite the following publication:
+Additionally, this repository also contains the code for the T-PAMI 2025 paper **Data-driven Feature Tracking for Event Cameras with and without Frames**
+([PDF](https://rpg.ifi.uzh.ch/docs/Arxiv24_Messikommer.pdf)) by [Nico Messikommer](https://messikommernico.github.io/), [Carter Fang](https://ctyfang.github.io/), [Mathis Gehrig](https://magehrig.github.io/), [Giovanni Cioffi](https://giovanni-cioffi.netlify.app/), and [Davide Scaramuzza](http://rpg.ifi.uzh.ch/people_scaramuzza.html).
+The code for the sparse disparity tracker is located in `disp_training/` and is independent of the parent directory.
+The subdirectory contains a separate Readme explaining how to run the disparity method.
+
+If you use any of this code, please cite the following publications:
 
 ```bibtex
 @Article{Messikommer23cvpr,
@@ -20,6 +25,19 @@ If you use any of this code, please cite the following publication:
   year    = {2023},
 }
 ```
+
+```bibtex
+@Article{Messikommer25tpami,
+  author  = {Nico Messikommer and Carter Fang and Mathias Gehrig and Giovanni Cioffi and Davide Scaramuzza},
+  title   = {Data-driven Feature Tracking for Event Cameras with and without Frames},
+  journal = {{IEEE} Trans. Pattern Anal. Mach. Intell. (T-PAMI)},
+  year    = {2025},
+}
+```
+
+# Data-driven Feature Tracking for Event Cameras CVPR23
+
+The following steps describe how to run the event-based tracker presented in the CVPR23 paper **Data-driven Feature Tracking for Event Cameras**.
 
 ## Abstract
 

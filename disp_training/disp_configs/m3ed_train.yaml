@@ -1,0 +1,31 @@
+hydra:
+  run:
+    dir: <path>/${data.name}/${model.name}/${experiment}/${now:%Y-%m-%d_%H%M%S}
+
+# Composing nested config with default
+experiment: disparity_evaluation
+
+patch_size: 63
+min_track_length: 20
+min_tracks_per_sample: 4
+max_tracks_per_sample: 12
+disp_patch_range: 122
+augment: True
+
+debug: False
+n_vis: 2
+logging: True
+
+# Train on M3ED
+checkpoint_path: none
+
+defaults:
+  - data: m3ed
+  - model: correlation3_unscaled_disp
+
+# Pytorch lightning trainer's argument
+trainer:
+  benchmark: True
+  log_every_n_steps: 10
+  max_epochs: 40000
+  num_sanity_val_steps: 10
