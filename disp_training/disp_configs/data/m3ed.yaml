@@ -1,0 +1,14 @@
+name: m3ed
+
+_target_: disp_dataloader.m3ed_loader.M3EDDataModule
+data_dir: <path>
+
+num_workers: 8
+
+# For tracks
+batch_size: 4
+
+n_train: 3000000  # Max number
+n_val: 10000  # Max number
+
+augment: True

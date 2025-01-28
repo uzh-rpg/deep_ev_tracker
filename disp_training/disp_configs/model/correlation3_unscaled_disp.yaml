@@ -1,0 +1,6 @@
+name: correlation3_unscaled_disp
+
+_target_: disp_model.correlation3_unscaled_disp.TrackerNetC
+feature_dim: 384
+defaults:
+  - /optim/adam.yaml@optimizer

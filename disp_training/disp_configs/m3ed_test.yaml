@@ -1,0 +1,17 @@
+hydra:
+  run:
+    dir: <path>/${data.name}/${now:%Y-%m-%d_%H%M%S}
+
+# Composing nested config with default
+experiment: disparity_method
+
+patch_size: 63
+min_track_length: 20
+tracks_per_sample: 16
+disp_patch_range: 122
+
+checkpoint_path: <path>
+
+defaults:
+  - data: m3ed
+  - model: correlation3_unscaled_disp
