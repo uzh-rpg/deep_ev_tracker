@@ -135,12 +135,12 @@ Download links:
 If you use this dataset in an academic context, please cite:
 
 ```bibtex
-@misc{Gehrig2022arxiv,
+@misc{Gehrig24tpami,
  author = {Gehrig, Mathias and Muglikar, Manasi and Scaramuzza, Davide},
  title = {Dense Continuous-Time Optical Flow from Events and Frames},
  url = {https://arxiv.org/abs/2203.13674},
- publisher = {arXiv},
- year = {2022}
+ publisher = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+ year = {2024}
 }
 ```
 
