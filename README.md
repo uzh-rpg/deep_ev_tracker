@@ -18,6 +18,15 @@ The subdirectory contains a separate Readme explaining how to run the disparity 
 If you use any of this code, please cite the following publications:
 
 ```bibtex
+@Article{Messikommer25tpami,
+  author  = {Nico Messikommer and Carter Fang and Mathias Gehrig and Giovanni Cioffi and Davide Scaramuzza},
+  title   = {Data-driven Feature Tracking for Event Cameras with and without Frames},
+  journal = {{IEEE} Trans. Pattern Anal. Mach. Intell. (T-PAMI)},
+  year    = {2025},
+}
+```
+
+```bibtex
 @Article{Messikommer23cvpr,
   author  = {Nico Messikommer* and Carter Fang* and Mathias Gehrig and Davide Scaramuzza},
   title   = {Data-driven Feature Tracking for Event Cameras},
@@ -26,14 +35,7 @@ If you use any of this code, please cite the following publications:
 }
 ```
 
-```bibtex
-@Article{Messikommer25tpami,
-  author  = {Nico Messikommer and Carter Fang and Mathias Gehrig and Giovanni Cioffi and Davide Scaramuzza},
-  title   = {Data-driven Feature Tracking for Event Cameras with and without Frames},
-  journal = {{IEEE} Trans. Pattern Anal. Mach. Intell. (T-PAMI)},
-  year    = {2025},
-}
-```
+
 
 # Data-driven Feature Tracking for Event Cameras CVPR23
 
